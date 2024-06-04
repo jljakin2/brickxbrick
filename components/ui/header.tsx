@@ -1,10 +1,8 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import Logo from '@/public/images/logo.svg'
+import Link from "next/link";
+import Image from "next/image";
+import Logo from "@/public/images/logo.svg";
 
-export default function Header({ nav = true }: {
-  nav?: boolean
-}) {
+export default function Header({ nav = true }: { nav?: boolean }) {
   return (
     <header className="absolute w-full z-30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -17,13 +15,16 @@ export default function Header({ nav = true }: {
             </Link>
           </div>
           {/* Desktop navigation */}
-          {nav &&
+          {nav && (
             <nav className="flex grow">
               {/* Desktop sign in links */}
               <ul className="flex grow justify-end flex-wrap items-center">
                 <li>
-                  <Link className="btn-sm text-white bg-blue-500 hover:bg-blue-600 group shadow-sm" href="/subscribe">
-                    Subscribe{' '}
+                  <Link
+                    className="btn-sm text-white bg-red-500 group shadow-sm"
+                    href="/subscribe"
+                  >
+                    Subscribe{" "}
                     <span className="tracking-normal text-blue-2300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                       -&gt;
                     </span>
@@ -31,9 +32,9 @@ export default function Header({ nav = true }: {
                 </li>
               </ul>
             </nav>
-          }
+          )}
         </div>
       </div>
     </header>
-  )
+  );
 }

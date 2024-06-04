@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import Logo from '@/public/images/logo.svg'
+import Link from "next/link";
+import Image from "next/image";
+import Logo from "@/public/images/logo.svg";
 
 export default function Footer() {
   return (
@@ -11,16 +11,23 @@ export default function Footer() {
             <div className="mb-4 md:mb-0">
               <div className="shrink-0 flex flex-col md:flex-row items-center">
                 {/* Logo */}
-                <Link className="inline-flex mb-2 md:mb-0" href="/" aria-label="Cruip">
+                <Link
+                  className="inline-flex mb-2 md:mb-0"
+                  href="/"
+                  aria-label="Brick By Brick"
+                >
                   <Image src={Logo} width={36} height={28} alt="Logo" />
                 </Link>
                 <div className="text-sm text-slate-500 ml-4">
-                  Copyright © Cruip<span className="md:hidden lg:inline">. All rights reserved.</span>
+                  Copyright © Brick By Brick
+                  <span className="md:hidden lg:inline">
+                    . All rights reserved.
+                  </span>
                 </div>
               </div>
             </div>
             {/* Social links */}
-            <ul className="inline-flex space-x-2">
+            {/* <ul className="inline-flex space-x-2">
               <li>
                 <a
                   className="flex justify-center items-center text-blue-500 hover:text-blue-600 transition duration-150 ease-in-out"
@@ -54,10 +61,10 @@ export default function Footer() {
                   </svg>
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }

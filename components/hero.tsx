@@ -98,7 +98,7 @@ export default function Hero() {
               >
                 Learn to build and sell.{" "}
                 <span className="font-permanent-marker text-red-500 font-normal whitespace-nowrap">
-                  Become{" "}
+                  <span className="text-white">Become </span>
                   <span className="inline-flex relative">
                     <svg
                       className="absolute right-0 top-full mt-1 max-w-none -z-10"
@@ -124,8 +124,8 @@ export default function Hero() {
                 data-aos="fade-right"
                 data-aos-delay="200"
               >
-                Our landing page template works on all devices, so you only have
-                to set it up once, and get beautiful results forever.
+                Everything you need to know to build and sell profitable SaaS
+                businesses. Join us as we share the secrets from the trenches.
               </p>
               {/* Buttons */}
               <div
@@ -138,7 +138,7 @@ export default function Hero() {
                     className="btn text-white bg-red-500 group shadow-sm"
                     href="/subscribe"
                   >
-                    Subscribe - Free{" "}
+                    Subscribe
                     <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                       -&gt;
                     </span>
@@ -178,7 +178,7 @@ export default function Hero() {
                   <div className="text-xs text-slate-500 font-medium">
                     +120K
                   </div>
-                </div>*/}
+                </div> */}
               </div>
               {/* Press logos */}
               {/* <div
