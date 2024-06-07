@@ -44,7 +44,7 @@ export default function PostContent({ ...props }) {
               <div className="py-12 md:py-20 -mx-20 px-20">
                 <div className="md:flex justify-between items-center text-center md:text-left">
                   {/* Left content */}
-                  <div className="max-w-3xl">
+                  <div className="max-w-4xl">
                     {/* Copy */}
                     <h1 className="h2 font-hkgrotesk text-gray-100 mb-4">
                       {props.title}
