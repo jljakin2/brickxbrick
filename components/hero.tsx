@@ -98,7 +98,10 @@ export default function Hero() {
               >
                 Learn to build and sell.{" "}
                 <span className="font-permanent-marker text-red-500 font-normal whitespace-nowrap">
-                  <span className="text-white">Become </span>
+                  <span className="text-white md:hidden">Be </span>
+                  <span className="text-white hidden md:inline-flex mr-4">
+                    Become{" "}
+                  </span>
                   <span className="inline-flex relative">
                     <svg
                       className="absolute right-0 top-full mt-1 max-w-none -z-10"
