@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://brickbybrick.fm
+
+# Sitemaps
+Sitemap: https://brickbybrick.fm/sitemap.xml
