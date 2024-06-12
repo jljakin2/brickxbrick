@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap",
+    "submit-sitemap": "node submit-sitemap.js"
   },
   "overrides": {
     "next-contentlayer": {
@@ -23,6 +25,7 @@
     "date-fns": "^2.30.0",
     "next": "^14.0.3",
     "next-contentlayer": "^0.3.4",
+    "next-sitemap": "^4.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "swiper": "^8.4.7",
