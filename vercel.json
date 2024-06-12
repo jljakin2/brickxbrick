@@ -3,10 +3,5 @@
     "env": {
       "NEXT_PUBLIC_SITE_URL": "https://brickbybrick.fm"
     }
-  },
-  "hooks": {
-    "prebuild": {
-      "command": "npm run postbuild && npm run submit-sitemap"
-    }
   }
 }
