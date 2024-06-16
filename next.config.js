@@ -11,13 +11,6 @@ const nextConfig = {
         permanent: true,
         statusCode: 308,
       },
-      {
-        source: "/",
-        has: [{ type: "host", value: "www.brickbybrick.fm" }],
-        destination: "/",
-        permanent: false,
-        statusCode: 200,
-      },
     ];
   },
 };
