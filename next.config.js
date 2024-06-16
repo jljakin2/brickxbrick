@@ -6,9 +6,17 @@ const nextConfig = {
     return [
       {
         source: "/",
-        destination: "https://www.brickbybrick.fm", // Redirect to the preferred URL
+        has: [{ type: "host", value: "brickbybrick.fm" }],
+        destination: "https://www.brickbybrick.fm/",
         permanent: true,
-        statusCode: 308, // Use 308 Permanent Redirect
+        statusCode: 308,
+      },
+      {
+        source: "/",
+        has: [{ type: "host", value: "www.brickbybrick.fm" }],
+        destination: "/",
+        permanent: false,
+        statusCode: 200,
       },
     ];
   },
