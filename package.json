@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postbuild": "next-sitemap",
-    "submit-sitemap": "node submit-sitemap.js"
+    "lint": "next lint"
   },
   "overrides": {
     "next-contentlayer": {
