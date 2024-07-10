@@ -22,4 +22,4 @@ jobs:
         run: npm run build
 
       - name: Run Lighthouse CI
-        run: lhci autorun
+        run: npm run ci:lighthouse
